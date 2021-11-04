@@ -14,6 +14,8 @@
 		955DF9B0273428710080BB5D /* AsyncTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955DF9AF273428710080BB5D /* AsyncTaskTests.swift */; };
 		955DF9BA273428710080BB5D /* AsyncTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955DF9B9273428710080BB5D /* AsyncTaskUITests.swift */; };
 		955DF9BC273428710080BB5D /* AsyncTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955DF9BB273428710080BB5D /* AsyncTaskUITestsLaunchTests.swift */; };
+		955DF9C9273428BE0080BB5D /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955DF9C8273428BE0080BB5D /* API.swift */; };
+		955DF9CB27342DD80080BB5D /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955DF9CA27342DD80080BB5D /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		955DF9B5273428710080BB5D /* AsyncTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		955DF9B9273428710080BB5D /* AsyncTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTaskUITests.swift; sourceTree = "<group>"; };
 		955DF9BB273428710080BB5D /* AsyncTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		955DF9C8273428BE0080BB5D /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		955DF9CA27342DD80080BB5D /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				955DF9A02734286F0080BB5D /* ContentView.swift */,
 				955DF9A2273428710080BB5D /* Assets.xcassets */,
 				955DF9A4273428710080BB5D /* Preview Content */,
+				955DF9C8273428BE0080BB5D /* API.swift */,
+				955DF9CA27342DD80080BB5D /* ContentViewModel.swift */,
 			);
 			path = AsyncTask;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				955DF9CB27342DD80080BB5D /* ContentViewModel.swift in Sources */,
 				955DF9A12734286F0080BB5D /* ContentView.swift in Sources */,
+				955DF9C9273428BE0080BB5D /* API.swift in Sources */,
 				955DF99F2734286F0080BB5D /* AsyncTaskApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
